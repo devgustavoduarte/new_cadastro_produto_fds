@@ -1,0 +1,40 @@
+{
+  "products-stock": [
+    {
+      "id": 3,
+      "Name": "iPhone 15 Plus",
+      "Price": 9890.99,
+      "Type": "Eletronic",
+      "EntryDate": "24/08/2021",
+      "DepartureDate": "12/09/2021",
+      "Destination": "Belo horizonte - MG"
+    },
+    {
+      "id": 4,
+      "Name": "Xbox One S",
+      "Price": 2200.5,
+      "Type": "Eletronic",
+      "EntryDate": "24/08/2021",
+      "DepartureDate": "12/09/2021",
+      "Destination": "Belo horizonte - MG"
+    },
+    {
+      "id": 5,
+      "Name": "Playstation 4",
+      "Price": 2200.5,
+      "Type": "Eletronic",
+      "EntryDate": "24/08/2021",
+      "DepartureDate": "12/09/2021",
+      "Destination": "Belo horizonte - MG"
+    },
+    {
+      "id": 1,
+      "Name": "Iphone 11",
+      "Price": 1700.9,
+      "Type": "Eletronic",
+      "EntryDate": "24/08/2021",
+      "DepartureDate": "12/09/2021",
+      "Destination": "Belo horizonte - MG"
+    }
+  ]
+}

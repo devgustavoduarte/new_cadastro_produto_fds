@@ -1,0 +1,178 @@
+<mat-card
+  style="display: flex; flex-direction: column; align-items: center; width: fit-content; margin: 0 auto; padding: 35px;"
+  class="mat-elevation-z5">
+
+  <!-- <form [formGroup]="formProduct">
+    <div style="display: flex; flex-direction: row; padding: 25px;">
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>ID</mat-label>
+          <input matInput formControlName="id">
+          <mat-icon matSuffix>&#xeb8d;</mat-icon>
+          <mat-hint>Generated ID</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>Name</mat-label>
+          <input matInput formControlName="Name">
+          <mat-icon matSuffix>&#xe179;</mat-icon>
+          <mat-hint>Product name</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>Price</mat-label>
+          <input matInput formControlName="Price">
+          <mat-icon matSuffix>&#xef63;</mat-icon>
+          <mat-hint>Product price $</mat-hint>
+        </mat-form-field>
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: row; padding: 25px;">
+      <p>
+        <mat-form-field appearance="legacy">
+          <mat-label>Type</mat-label>
+          <input matInput formControlName="Type">
+          <mat-icon matSuffix>&#xe241;</mat-icon>
+          <mat-hint>Product type</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field color="primary" appearance="legacy">
+          <mat-label>Entry date</mat-label>
+          <input matInput [matDatepicker]="dp3" disabled formControlName="EntryDate">
+          <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+          <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+          <mat-hint>Product entry date</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field color="primary" appearance="legacy">
+          <mat-label>Departure date</mat-label>
+          <input matInput [matDatepicker]="dp4" disabled formControlName="DepartureDate">
+          <mat-datepicker-toggle matSuffix [for]="dp4"></mat-datepicker-toggle>
+          <mat-datepicker #dp4 disabled="false"></mat-datepicker>
+          <mat-hint>Product departure date</mat-hint>
+        </mat-form-field>
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: row; padding: 25px;">
+      <p>
+        <mat-form-field color="primary" appearance="legacy">
+          <mat-label>City</mat-label>
+          <input matInput formControlName="Destination">
+          <mat-icon matSuffix>&#xe7f1;</mat-icon>
+          <mat-hint>Ex. San Francisco</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field color="primary" appearance="legacy">
+          <mat-label>State</mat-label>
+          <input matInput formControlName="Destination">
+          <mat-icon matSuffix>&#xe73a;</mat-icon>
+          <mat-hint>Ex. California</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field color="primary" appearance="legacy">
+          <mat-label>Postal Code</mat-label>
+          <input matInput #postalCode maxlength="9" placeholder="Ex. 04851-240" value="04851-240"
+            formControlName="Destination">
+          <mat-icon matSuffix>&#xe558;</mat-icon>
+          <mat-hint align="end">{{postalCode.value.length}} / 9</mat-hint>
+        </mat-form-field>
+      </p>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+      <button mat-raised-button color="primary">Save</button>
+      <button mat-raised-button color="warn">Cancel</button>
+    </div>
+  </form> -->
+
+  <div style="display: flex; flex-direction: row; padding: 25px;">
+    <p>
+      <mat-form-field appearance="legacy">
+        <mat-label>ID</mat-label>
+        <input matInput>
+        <mat-icon matSuffix>&#xeb8d;</mat-icon>
+        <mat-hint>Generated ID</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="legacy">
+        <mat-label>Name</mat-label>
+        <input matInput>
+        <mat-icon matSuffix>&#xe179;</mat-icon>
+        <mat-hint>Product name</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="legacy">
+        <mat-label>Price</mat-label>
+        <input matInput>
+        <mat-icon matSuffix>&#xef63;</mat-icon>
+        <mat-hint>Product price $</mat-hint>
+      </mat-form-field>
+    </p>
+  </div>
+  <div style="display: flex; flex-direction: row; padding: 25px;">
+    <p>
+      <mat-form-field appearance="legacy">
+        <mat-label>Type</mat-label>
+        <input matInput>
+        <mat-icon matSuffix>&#xe241;</mat-icon>
+        <mat-hint>Product type</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field color="primary" appearance="legacy">
+        <mat-label>Entry date</mat-label>
+        <input matInput [matDatepicker]="dp3" disabled>
+        <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+        <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+        <mat-hint>Product entry date</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field color="primary" appearance="legacy">
+        <mat-label>Departure date</mat-label>
+        <input matInput [matDatepicker]="dp4" disabled>
+        <mat-datepicker-toggle matSuffix [for]="dp4"></mat-datepicker-toggle>
+        <mat-datepicker #dp4 disabled="false"></mat-datepicker>
+        <mat-hint>Product departure date</mat-hint>
+      </mat-form-field>
+    </p>
+  </div>
+  <div style="display: flex; flex-direction: row; padding: 25px;">
+    <p>
+      <mat-form-field color="primary" appearance="legacy">
+        <mat-label>City</mat-label>
+        <input matInput>
+        <mat-icon matSuffix>&#xe7f1;</mat-icon>
+        <mat-hint>Ex. San Francisco</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field color="primary" appearance="legacy">
+        <mat-label>State</mat-label>
+        <input matInput>
+        <mat-icon matSuffix>&#xe73a;</mat-icon>
+        <mat-hint>Ex. California</mat-hint>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field color="primary" appearance="legacy">
+        <mat-label>Postal Code</mat-label>
+        <input matInput #postalCode maxlength="9" placeholder="Ex. 04851-240" value="04851-240">
+        <mat-icon matSuffix>&#xe558;</mat-icon>
+        <mat-hint align="end">{{postalCode.value.length}} / 9</mat-hint>
+      </mat-form-field>
+    </p>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+    <button mat-raised-button color="primary">Save</button>
+    <button mat-raised-button color="warn">Cancel</button>
+  </div>
+
+</mat-card>

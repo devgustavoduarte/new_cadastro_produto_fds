@@ -1,0 +1,31 @@
+http://localhost:3001/products-stock
+
+###########################
+
+POST http://localhost:3001/products-stock HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "Name": "Iphone 11",
+    "Price": 1700.90,
+    "Type": "Eletronic",
+    "EntryDate": "24/08/2021",
+    "DepartureDate": "12/09/2021",
+    "Destination": "Belo horizonte - MG"
+}
+
+############################
+
+PUT http://localhost:3001/products-stock/5 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 5,
+    "name": "Playstation 5",
+    "price": 4200.89
+}
+
+###########################
+
+DELETE http://localhost:3001/products-stock/5
